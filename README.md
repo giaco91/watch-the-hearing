@@ -4,3 +4,7 @@
 <p>So we see, eyes are pro in detecting from which direction a certain wave is coming in but not so good in telling the exact frequency composition.</p>
 <p>The interesting thing is, and that's why I wrote this repo, that it is exactly the other way around by looking at our ear! While we are quite untalented in telling the direction of a specific noise source we are remarkable skilled in analysing the frequency spectrum of sound waves - in real time! Music actually is one gigantic celebration of this ability:) Now as mentioned above its not very reasonable to guess a sound coresponding to a specific color the transformation from sound to color is theoretically unique. So for every noise, there exists exactly one corresponding color, even if there are endlessly other noise corresponding to the same color. The mathematicians call such a transformation surjective, because it is not invertible.</p> 
 <p>So what I tryed to do was exactly this task. I modelled the three types of photoreceptor cells, related them to the three dimensional RGB-space and sampled the (sound-)signal of arbitrary mp3-files. The code is written in matlab and "sound_visualizer.m" is the main file. The Code has a hyperparameter "rec": rec = 0 is for watching the mp3-file while rec = 1 gives you the oportunity to record your own soundwaves at your place. Please check it out with your own favourite sounds and please let me know if there are any suggestions.</p>
+
+### Test code
+Run
+sound_visualizer.m
